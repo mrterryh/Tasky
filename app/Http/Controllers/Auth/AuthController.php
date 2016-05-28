@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Tasky\Http\Controllers\Auth;
 
-use App\User;
+use Tasky\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use Tasky\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
